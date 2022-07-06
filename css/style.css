@@ -1,0 +1,225 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+}
+header .container {
+  position: relative;
+}
+header .container.navigate-bar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header .container.navigate-bar .navbar .navbar-brand, header .container.navigate-bar .navbar .nav-link {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+header .container.navigate-bar .navbar .navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header .container form {
+  z-index: 2;
+  position: relative;
+  top: 100%;
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+@media (min-width: 1200px) {
+  header .container form {
+    position: absolute;
+    transform: translateY(-100%);
+    right: 0;
+    margin-top: 0px;
+    width: 343px;
+  }
+}
+header .container form h2 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  header .container form h2 {
+    font-size: 30px;
+  }
+}
+header .container form span {
+  font-size: 11px;
+  color: #aaa;
+}
+@media (min-width: 1200px) {
+  header .container form span {
+    font-size: 20px;
+  }
+}
+header .container form hr {
+  border-color: #aaa;
+}
+header .container form input {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+header .container form input[type=text], header .container form input[type=password], header .container form input[type=email] {
+  background-color: #fff;
+}
+header .container form input[type=submit] {
+  color: #fff;
+  background-color: #d9534f;
+}
+header .promo {
+  width: 100%;
+  position: relative;
+  background-color: #444;
+  color: #fff;
+  padding: 47px 0;
+  margin-top: 20px;
+}
+@media (min-width: 1200px) {
+  header .promo {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0px;
+  }
+}
+header .promo h4 {
+  font-size: 24px;
+}
+header .promo p {
+  font-size: 15px;
+}
+header .promo i {
+  font-size: 19px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  color: #444;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  width: 240px;
+  height: 1px;
+  background-color: #ddd;
+  margin: 90px auto;
+  position: relative;
+}
+.divider .round {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.Features .container .item {
+  margin-bottom: 65px;
+}
+.Features .container .item .row {
+  margin-bottom: 20px;
+}
+.Features .container .item h5 {
+  font-size: 15px;
+  margin-bottom: 0;
+  line-height: 29px;
+}
+.Features .container .item p {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 0;
+}
+
+.price .container .item h5 {
+  margin-bottom: 30px;
+}
+.price .container .item p {
+  margin: 0;
+  text-align: justify;
+}
+.price .container .item hr {
+  margin: 60px 0;
+}
+
+.in-touch {
+  margin-bottom: 55px;
+}
+.in-touch h4 {
+  font-size: 24px;
+  margin: 0;
+}
+.in-touch form {
+  margin-top: 40px;
+}
+.in-touch form input, .in-touch form select, .in-touch form textarea {
+  border: 1px solid #ddd;
+  margin-bottom: 35px;
+  width: 100%;
+}
+.in-touch form label {
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer {
+  color: #ccc;
+  background: url("../imgs/footer.png") no-repeat center/cover;
+  padding: 90px 0;
+}
+footer a {
+  color: #ccc;
+}
+footer h5 {
+  margin: 40px 0;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  margin-bottom: 20px;
+}
+footer .item {
+  margin-top: 20px;
+  border-bottom: 1px dashed #888;
+}
+footer .item:first-child {
+  margin-top: 0px;
+}
+footer .item p {
+  margin-bottom: 20px;
+}
+footer .item .time {
+  margin-bottom: 40px;
+  font-size: 11px;
+  color: #888;
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */
