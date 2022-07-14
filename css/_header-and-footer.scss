@@ -1,0 +1,113 @@
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
+  .container-fluid {
+    .topnav {
+      overflow: hidden;
+
+      .icon {
+        display: none;
+      }
+      nav {
+        @media screen and (min-width: 960px) {
+          display: block !important;
+        }
+        ul {
+          float: right;
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+      a {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        padding: 44px 0;
+        padding-left: 26px;
+        color: black;
+        text-transform: uppercase;
+        &.active {
+          color: #04aa6d;
+        }
+        &.logo {
+          float: left;
+          text-transform: none;
+          padding-left: 0;
+        }
+      }
+    }
+    @media screen and (max-width: 960px) {
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+      .topnav {
+        position: relative;
+        .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        a.logo {
+          float: none;
+        }
+        a {
+          display: block;
+          text-align: left;
+        }
+        nav {
+          display: none;
+          ul {
+            float: none;
+            display: block;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 960px) {
+      .topnav {
+        a {
+          padding: 12px 0;
+        }
+      }
+    }
+  }
+}
+footer {
+  color: #ccc;
+  background: url("../imgs/footer.png") no-repeat center/cover;
+  padding: 90px 0;
+  a {
+    color: #ccc;
+  }
+  h5 {
+    margin: 40px 0;
+  }
+  ul {
+    padding: 0;
+    li {
+      margin-bottom: 20px;
+    }
+  }
+  .item {
+    &:first-child {
+      margin-top: 0px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .time {
+      margin-bottom: 40px;
+      font-size: 11px;
+      color: #888;
+      font-style: italic;
+    }
+    margin-top: 20px;
+    border-bottom: 1px dashed #888;
+  }
+}
