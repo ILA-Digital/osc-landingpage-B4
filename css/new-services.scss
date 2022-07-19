@@ -1,0 +1,85 @@
+@import "_header-and-footer";
+@import "_banner";
+@import "_general";
+@import "_variables";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+main {
+  .big-title {
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .sub-title {
+    font-size: 22px;
+    line-height: 50px;
+    margin: 0 0 39px 0;
+    text-align: center;
+    color: #aaa;
+    font-weight: normal;
+  }
+  .line {
+    width: 40px;
+    height: 0;
+    border-top: 3px solid #333333;
+    margin: auto;
+  }
+  .mg-47 {
+    margin-bottom: 47px;
+  }
+  .item {
+    margin-bottom: 30px;
+    &-title,
+    .sub-titles {
+      font-size: 19px;
+      line-height: 27px;
+      word-spacing: 0.45rem;
+    }
+    &-title {
+      margin-top: 32px;
+      margin-bottom: 15px;
+    }
+    .sub-titles {
+      margin-bottom: 32px;
+      font-weight: lighter;
+    }
+  }
+  section {
+    padding: 90px 0 60px 0;
+  }
+  .options {
+    background-color: $dark-bg;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 70%;
+        margin-bottom: 66px;
+      }
+      .item {
+        &-title {
+          margin-top: 0;
+        }
+        .number {
+          font-size: 48px;
+          color: $green;
+          line-height: 50px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .optimize {
+    p {
+      margin-bottom: 65px;
+    }
+    .btn {
+      padding: 16px 28px;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 27px;
+    }
+  }
+}

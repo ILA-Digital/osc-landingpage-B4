@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 header {
   width: 100%;
   position: -webkit-sticky;
@@ -155,123 +156,76 @@ main {
   padding-bottom: 48px;
 }
 
-.show-shortcode {
-  font-weight: bold;
-  display: none;
+main .big-title {
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bolder;
 }
-@media screen and (max-width: 991px) {
-  .show-shortcode {
-    display: block;
-  }
+main .sub-title {
+  font-size: 22px;
+  line-height: 50px;
+  margin: 0 0 39px 0;
+  text-align: center;
+  color: #aaa;
+  font-weight: normal;
 }
-@media screen and (max-width: 600px) {
-  .show-shortcode {
-    font-size: 11px;
-  }
-}
-.show-shortcode i {
-  padding-right: 10px;
-}
-@media screen and (max-width: 330px) {
-  .show-shortcode i {
-    display: none;
-  }
-}
-
-main .container .row {
-  position: relative;
-}
-main .container .row .content.left .sub-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #1abc9c;
-}
-main .container .row .content.left .sub-header h2 {
-  font-size: 24px;
-  margin: 0;
-}
-@media screen and (max-width: 600px) {
-  main .container .row .content.left .sub-header h2 {
-    font-size: 15px;
-  }
-}
-main .container .row .content.left ul {
-  font-size: 15px;
-  margin-bottom: 40px;
-  line-height: 28px;
-  list-style-type: none;
-}
-main .container .row .content.left ul * {
-  color: #444;
-}
-main .container .row .content.left ul li {
-  position: relative;
-}
-main .container .row .content.left ul li::before {
-  content: "";
-  border-color: transparent #111;
-  border-style: solid;
-  border-width: 0.25em 0 0.25em 0.25em;
-  display: inline-block;
-  padding-right: 14px;
+main .line {
+  width: 40px;
   height: 0;
-  width: 0;
-  top: 0;
-  left: 0;
-  position: relative;
+  border-top: 3px solid #333333;
+  margin: auto;
 }
-main .container .row .content.left .question-container .question {
-  padding: 40px 20px 40px 0;
-  border-top: 1px solid #999;
+main .mg-47 {
+  margin-bottom: 47px;
 }
-main .container .row .content.left .question-container .question-title {
-  font-size: 24px;
-  margin-bottom: 23px;
-  line-height: 36px;
+main .item {
+  margin-bottom: 30px;
 }
-main .container .row .content.left .question-container .question-content {
-  font-size: 14px;
-  line-height: 25px;
-  margin: 0;
+main .item-title,
+main .item .sub-titles {
+  font-size: 19px;
+  line-height: 27px;
+  word-spacing: 0.45rem;
 }
-@media screen and (max-width: 991px) {
-  main .container .row .content.right {
-    display: none;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.3) -5px 0px 10px;
-    height: 100%;
-    width: 50vw;
-    overflow: auto;
-    padding: 12px 32px;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+main .item-title {
+  margin-top: 32px;
+  margin-bottom: 15px;
 }
-@media screen and (min-width: 991px) {
-  main .container .row .content.right {
-    display: block !important;
-  }
+main .item .sub-titles {
+  margin-bottom: 32px;
+  font-weight: lighter;
 }
-main .container .row .content.right h2 {
+main section {
+  padding: 90px 0 60px 0;
+}
+main .options {
+  background-color: #f5f5f5;
+}
+main .options .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .options .container img {
+  width: 70%;
+  margin-bottom: 66px;
+}
+main .options .container .item-title {
+  margin-top: 0;
+}
+main .options .container .item .number {
+  font-size: 48px;
+  color: #1abc9c;
+  line-height: 50px;
+  font-weight: bold;
+}
+main .optimize p {
+  margin-bottom: 65px;
+}
+main .optimize .btn {
+  padding: 16px 28px;
   font-size: 15px;
-  line-height: 22px;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 991px) {
-  main .container .row .content.right h2 {
-    display: none;
-  }
-}
-main .container .row .content.right ul {
-  list-style: inside;
-  font-size: 14px;
-  margin-bottom: 40px;
-  line-height: 30px;
-  list-style-image: url("../imgs/bullet.png");
-}
-main .container .row .content.right ul * {
-  color: #444;
-}/*# sourceMappingURL=fags.css.map */
+  font-weight: bold;
+  line-height: 27px;
+}/*# sourceMappingURL=new-services.css.map */
