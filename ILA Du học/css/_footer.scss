@@ -1,0 +1,95 @@
+@import "_variables";
+footer {
+  background: #57585c url(../imgs/background-footer.png) no-repeat center
+    top/cover;
+  padding: 110px 0;
+  @media screen and (max-width: 768px) {
+    padding: 30px 0;
+  }
+  .center {
+    font-weight: bold;
+    line-height: 36px;
+    text-transform: uppercase;
+    li {
+      position: relative;
+      &::before {
+        content: "";
+        @media screen and (max-width: 1180px) {
+          display: none;
+        }
+        position: absolute;
+        background: white;
+        top: 50%;
+        left: 0;
+        transform: translate(-16px, -50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+      .before {
+        position: absolute;
+        background: rgba(white, 0.5);
+        top: 50%;
+        right: 100%;
+        transform: translate(-16px, -50%);
+        width: 200px;
+        height: 1px;
+        @media screen and (max-width: 1180px) {
+          display: none;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          background: rgba(white, 0.5);
+          top: 50%;
+          left: 0;
+          transform: translate(-50%, -50%);
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+        }
+      }
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+  }
+  .f-title {
+    font-weight: bold;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  a.f-content {
+    display: flex;
+    align-items: center;
+  }
+  .f-content {
+    strong {
+      text-transform: uppercase;
+      color: white;
+    }
+    i {
+      font-size: 40px;
+      color: white;
+      padding-right: 20px;
+    }
+    line-height: 24px;
+    font-size: 16px;
+    color: white;
+  }
+  .f-line {
+    width: 40px;
+    height: 1px;
+    background-color: #eaa911;
+    margin: 15px 0;
+  }
+  [class^="col-"] {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    &.f-center {
+      justify-content: space-between;
+    }
+  }
+}
